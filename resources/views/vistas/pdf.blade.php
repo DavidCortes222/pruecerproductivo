@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/pdf.css" type="text/css" />
 
 </head>
-<body>
+<body> 
 
   <header>
     <table style="width: 100%">
