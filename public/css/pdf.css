@@ -1,0 +1,114 @@
+      /** 
+          Establezca los márgenes de la página en 0, por lo que el pie de página y el encabezado
+          puede ser de altura y anchura completas.
+       **/
+       @page {
+        margin: 0cm 0cm;
+    }
+
+    /** Defina ahora los márgenes reales de cada página en el PDF **/
+    body {
+        margin-top: 4cm;
+        margin-left: 2cm;
+        margin-right: 2cm;
+        margin-bottom: 2cm;
+    }
+
+    /** Definir las reglas del encabezado **/
+    header {
+        position: fixed;
+        top: 0cm;
+        left: 0cm;
+        right: 0cm;
+        height: 4cm;
+    }
+
+    /** Definir las reglas del pie de página **/
+    footer {
+        position: fixed; 
+        bottom: 0cm; 
+        left: 0cm; 
+        right: 0cm;
+        height: 2cm;
+    }
+
+.titulo{
+    text-align: center; 
+    font-family: Arial;
+    font-size: 12; 
+  }
+
+  .texto{
+    text-align: left; 
+    font-family: Arial; 
+    font-size: 7; 
+  }
+
+  .textodos{
+   text-align: center; 
+    font-family: Arial; 
+    font-size: 9; 
+    font-weight: bold; 
+  }
+
+  .cuerpo{
+   font-family: Arial; 
+    font-size: 8.5; 
+    text-align: justify; 
+  }
+
+  #fecha, #asunto{
+    text-align: right; 
+    font-weight: bold;
+  }
+
+  table,td,th{
+   border: 1px solid black;
+   padding: 6px,6px,6px,6px; 
+  }
+
+  #importe{
+    padding-left: 65%; 
+    border: 1px solid black;
+  }
+
+  #pie{
+    font-family: Arial; 
+    font-size: 6; 
+    text-align: center
+  }
+
+  .firma{
+    text-align: left; 
+    border: none; 
+    font-weight: bold;
+    width: 80%; 
+}
+
+  .sinborde{ 
+    border: none;
+  }
+
+  .cliente{
+    text-align: center;
+    border-bottom: none;
+    border-top:none;
+    width: 80px;
+  }
+
+  .fin{
+    margin-left: 300px;
+    text-align: center;
+    border: 1px solid black;
+  }
+
+  #contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    font-weight: bold;
+  }
+  
+  #contenedor > div {
+    width: 50%;
+  }
